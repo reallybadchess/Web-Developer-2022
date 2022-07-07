@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emmet Demo</title>
+</head>
+
+<body>
+  <!-- Emmet is a plugin for many popular text editors which greatly improves HTML & CSS workflow. -->
+
+  <!-- Child: >
+
+  main>section>h1
+  
+  This will expand into  -->
+
+  <main>
+    <section>
+      <h1></h1>
+    </section>
+  </main>
+
+  <!-- Sibling: +
+
+  adding your elements h1+h2+h2 creates
+  adjecent elements, thus, they are siblings.
+
+-->
+
+  <h1></h1>
+  <h2></h2>
+  <h2></h2>
+
+  <!-- Multiplication: *
+
+Use the * character to create multiple sibling elements
+
+ul>li*4
+
+-->
+  <ul>
+    <li>stuff</li>
+    <li>stuff</li>
+    <li>stuff</li>
+    <li>stuff</li>
+    <li>stuff</li>
+  </ul>
+  <!-- Numbering: $
+
+Creates numbers for you and is useful with attributes
+
+nav>ul>li*5>a[href=www.$.com]
+
+-->
+
+  <nav>
+    <ul>
+      <li><a href="www.1.com"></a></li>
+      <li><a href="www.2.com"></a></li>
+      <li><a href="www.3.com"></a></li>
+      <li><a href="www.4.com"></a></li>
+      <li><a href="www.5.com"></a></li>
+    </ul>
+  </nav>
+
+  <!-- Curly brackets make stuf easy too!
+
+nav>ul>li*5>a[href=www.$.com]{Click Me}
+-->
+
+  <nav>
+    <ul>
+      <li><a href="www.1.com">Click Me</a></li>
+      <li><a href="www.2.com">Click Me</a></li>
+      <li><a href="www.3.com">Click Me</a></li>
+      <li><a href="www.4.com">Click Me</a></li>
+      <li><a href="www.5.com">Click Me</a></li>
+    </ul>
+  </nav>
+
+</html>
