@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heaviest Birds Table</title>
+</head>
+
+<body>
+  <h1>Chonky Birds Table</h1>
+
+  <table>
+    <!-- The <thead> HTML element defines a set of rows defining the head of the columns of the table. -->
+    <thead>
+      <tr>
+        <th>Animal</th>
+        <th>Average mass
+          [kg (lb)] </th>
+        <th>Maximum mass
+          [kg (lb)] </th>
+        <th>Flighted</th>
+      </tr>
+    </thead>
+    <!-- The <tbody> HTML element encapsulates a set of table rows (<tr> elements), indicating that they comprise the body of the table (<table>). -->
+    <tbody>
+      <tr>
+        <td>Ostrich</td>
+        <td>104 (230)</td>
+        <td>156.8 (346)</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td>Somali Ostrich</td>
+        <td>90 (200)</td>
+        <td>130 (287)</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td>Domestic turkey/wild turkey</td>
+        <td>13.5 (29.8) </td>
+        <td>39 (86)</td>
+        <td>Yes</td>
+      </tr>
+    </tbody>
+
+  </table>
+
+  <h2>V2</h2>
+  <table>
+    <thead>
+      <tr>
+        <!-- This attribute contains a non-negative integer value that indicates for how many rows the cell extends. Its default value is 1; if its value is set to 0, it extends until the end of the table section (<thead>, <tbody>, <tfoot>, even if implicitly defined), that the cell belongs to. Values higher than 65534 are clipped down to 65534. -->
+        <th rowspan="2">Animal</th>
+
+        <!-- This attribute contains a non-negative integer value that indicates for how many columns the cell extends. Its default value is 1. Values higher than 1000 will be considered as incorrect and will be set to the default value (1). -->
+        <th colspan="2">Average Mass</th>
+        <th rowspan="2">Flighted</th>
+      </tr>
+      <tr>
+        <th>Kg</th>
+        <th>Lbs</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Ostrich</td>
+        <td>104</td>
+        <td>230</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td>Somali Ostrich</td>
+        <td>90</td>
+        <td>200</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td>Domestic turkey/wild turkey</td>
+        <td>13.5 </td>
+        <td>29.8</td>
+        <td>Yes</td>
+      </tr>
+    </tbody>
+</body>
+</table>
+
+
+
+</html>
