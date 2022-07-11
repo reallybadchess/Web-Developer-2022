@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms Demo</title>
+</head>
+
+<body>
+  <h1>Forms Demo</h1>
+
+  <form action="/tacos/">
+
+    <button type="button">type=button, wont submit.</button>
+    <p>
+      <label for="username">Enter a username</label>
+
+      <!-- Name of the form control. Submitted with the form as part of a name/value pair -->
+
+      <input id="username" type="username" placeholder="username" name="username">
+    </p>
+
+    <button type="submit">type=submit, will submit form</button>
+    <p>
+
+      <label for="password">Enter a password</label>
+      <input id="password" type="password" placeholder="password" name="password">
+    </p>
+
+    <input type="submit" value="Click me!">
+    <p>
+      <input type="color">
+      <input type="number" placeholder="enter a number" name="color">
+    </p>
+
+    <button>default submit</button>
+  </form>
+  <hr>
+  <button>Outside the form, does nothing.</button>
+</body>
+
+</html>

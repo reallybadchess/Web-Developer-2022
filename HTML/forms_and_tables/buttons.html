@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms Demo</title>
+</head>
+
+<body>
+  <h1>Forms Demo</h1>
+
+  <form action="/tacos/">
+
+    <!-- <input> elements of type submit are rendered as buttons. When the click event occurs (typically because the user clicked the button), the user agent attempts to submit the form to the server. -->
+
+    <button type="button">regular button, wont submit.</button>
+    <p>
+      <label for="username">Enter a username</label>
+      <input id="username" type="username" placeholder="username">
+    </p>
+
+    <button type="submit">random button</button>
+    <p>
+
+      <label for="password">Enter a password</label>
+      <input id="password" type="password" placeholder="password">
+    </p>
+    <!-- Not ideal syntax but will submit the form. -->
+    <input type="submit" value="Click me!">
+    <p>
+      <input type="color">
+      <input type="number" placeholder="enter a number">
+    </p>
+
+    <button>Submit</button>
+  </form>
+  <!-- no default behavior -->
+  <button>Outside the form, does nothing.</button>
+</body>
+
+</html>

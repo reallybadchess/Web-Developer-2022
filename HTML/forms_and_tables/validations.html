@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validations demo</title>
+</head>
+
+<body>
+  <h2>Validations Demo</h2>
+
+  <!-- The Boolean required attribute, if present, indicates that the user must specify a value for the input before the owning form can be submitted. -->
+
+  <form action="/dummy">
+    <label for="first">First Name</label>
+    <input type="first" name="" id="first" required>
+
+    <p>
+      <label for="username">Username</label>
+      <input type="text" name="username" id="username" minlength="5" maxlength="20" required>
+    </p>
+    <button>Submit</button>
+  </form>
+
+</body>
+
+</html>
