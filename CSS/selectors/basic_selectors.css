@@ -1,0 +1,34 @@
+button {
+  /* The <img> HTML element embeds an image into the document. */
+  font-size: 30px;
+  background-color: #a8dadc;
+
+}
+
+h1,
+h2 {
+  color: #1d3557
+}
+
+body {
+  background-color: #f1faee;
+}
+
+/* The CSS ID selector matches an element based on the value of the element's id attribute. In order for the element to be selected, its id attribute must match exactly the value given in the selector. */
+
+#signup {
+  background-color: #1d3557;
+  color: #f1faee;
+}
+
+/* The CSS class selector matches elements based on the contents of their class attribute. */
+
+span {
+  color: #457b9d
+}
+
+.tag {
+  background-color: #e63946;
+  color: #f1faee;
+  font-size: 20px;
+}

@@ -1,0 +1,17 @@
+h2 {
+  color: teal;
+  /* The rgb() functional notation expresses a color according to its red, green, and blue components. An optional alpha component represents the color's transparency. */
+  background-color: rgb(221, 160, 221);
+
+}
+
+button {
+  color: orangered;
+  background-color: rgb(255, 235, 205);
+}
+
+p {
+  color: purple;
+  /* The <hex-color> CSS data type is a notation for describing the hexadecimal color syntax of an sRGB color using its primary color components (red, green, blue) written as hexadecimal numbers, as well as its transparency. It can be used everywhere a <color> type is allowed. */
+  background-color: #ffeecc;
+}
