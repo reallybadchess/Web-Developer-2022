@@ -1,0 +1,19 @@
+/* Goals:
+
+Give only the links in the header:
+  - font size 30px
+  - color of teal
+
+Give only the link inside the paragraph with the id dislikes:
+  - bolded
+  - color of red */
+
+header a {
+  font-size: 30px;
+  color: teal;
+}
+
+#dislikes a {
+  font-weight: bold;
+  color: red;
+}

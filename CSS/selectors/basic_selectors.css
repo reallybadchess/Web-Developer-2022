@@ -32,3 +32,35 @@ span {
   color: #f1faee;
   font-size: 20px;
 }
+
+/* The descendant combinator — typically represented by a single space ( ) character — combines two selectors such that elements matched by the second selector are selected if they have an ancestor element matching the first selector. Selectors that utilize a descendant combinator are called descendant selectors. */
+
+.post a {
+  color: #457b9d
+}
+
+footer a {
+  color: #e76f51;
+}
+
+/* The adjacent sibling combinator (+) separates two selectors and matches the second element only if it immediately follows the first element, and both are children of the same parent element. */
+
+input+button {
+  background-color: #e76f51;
+}
+
+h2+button {
+  font-size: 15px;
+}
+
+/* The child combinator (>) is placed between two CSS selectors. It matches only those elements matched by the second selector that are the direct children of elements matched by the first. */
+
+footer>a {
+  color: #2f3e46;
+}
+
+/* The CSS attribute selector matches elements based on the presence or value of a given attribute. */
+
+input[type="password"] {
+  color: #ffbd00;
+}
