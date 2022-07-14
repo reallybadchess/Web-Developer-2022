@@ -1,0 +1,28 @@
+/* The :hover CSS pseudo-class matches when the user interacts with an element with a pointing device, but does not necessarily activate it. It is generally triggered when the user hovers over an element with the cursor (mouse pointer). */
+
+/* button:hover {
+  background-color: #eae2b7;
+  color: #003049;
+} */
+
+.post button:hover {
+  background-color: #eae2b7;
+  color: #003049;
+}
+
+/* The :active CSS pseudo-class represents an element (such as a button) that is being activated by the user. When using a mouse, "activation" typically starts when the user presses down the primary mouse button. */
+
+.post button:active {
+  background-color: #fca311;
+}
+
+/* The :nth-of-type() CSS pseudo-class matches elements based on their position among siblings of the same type (tag name). */
+
+.post:nth-of-type(n) {
+  background-color: #d6e493;
+  S
+}
+
+.post:nth-of-type(2n) {
+  background-color: #dde5b6;
+}
