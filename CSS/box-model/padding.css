@@ -1,0 +1,26 @@
+/* The padding CSS shorthand property sets the padding area on all four sides of an element at once.
+*/
+
+h1 {
+  background-color: pink;
+  width: 100px;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+/* Shorthand
+all four sides 
+padding: 10px
+
+vertical | horizontal
+padding: 10px 10px
+
+top | horizontal | bottom
+padding: 1px 2px 2px
+
+top.right.bottom.left
+padding: 1px 2px 3px 4px */
+
+button {
+  padding: 10px 20px 30px 40px;
+}
