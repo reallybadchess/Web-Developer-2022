@@ -1,0 +1,23 @@
+/* The margin CSS shorthand property sets the margin area on all four sides of an element. */
+
+body {
+  background-color: #ede0d4;
+  margin: 0px
+}
+
+h1 {
+  margin: 0;
+}
+
+#one {
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+
+#two {
+  margin: 200px;
+}
+
+button {
+  margin: 50px;
+}
