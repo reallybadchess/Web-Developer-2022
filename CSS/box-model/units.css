@@ -57,6 +57,9 @@ ul {
 
 #rems h2 {
   font-size: 3rem;
+  background-color: palegoldenrod;
+  color: blueviolet;
+  text-align: center;
 }
 
 #rems h3 {
